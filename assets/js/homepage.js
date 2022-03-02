@@ -22,7 +22,7 @@ var displayRepos = function(repos, searchTerm) {
     console.log(searchTerm);
 
     //check if api returned any repos
-    if(repoEl.length === 0) {
+    if(repos.length === 0) {
         repoContainerEl.textContent = "No repositories found";
         return;
     }
